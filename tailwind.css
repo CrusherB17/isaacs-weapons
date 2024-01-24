@@ -1,25 +1,13 @@
-.m-10 {
-  margin: 2.5rem
-}
-
-.mt-8 {
-  margin-top: 2rem
-}
-
 .h-1\/2 {
   height: 50%
 }
 
-.h-5\/6 {
-  height: 83.333333%
+.w-1\/2 {
+  width: 50%
 }
 
 .w-full {
   width: 100%
-}
-
-.w-1\/2 {
-  width: 50%
 }
 
 .flex-1 {
@@ -38,10 +26,6 @@
   justify-content: flex-start
 }
 
-.justify-between {
-  justify-content: space-between
-}
-
 .justify-around {
   justify-content: space-around
 }
@@ -56,16 +40,13 @@
   background-color: rgb(127 29 29 / var(--tw-bg-opacity))
 }
 
-.p-10 {
-  padding: 2.5rem
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity))
 }
 
 .p-2 {
   padding: 0.5rem
-}
-
-.p-1 {
-  padding: 0.25rem
 }
 
 .p-3 {
@@ -86,76 +67,12 @@
   line-height: 1.75rem
 }
 
-.font-semibold {
-  font-weight: 600
-}
-
 .font-bold {
   font-weight: 700
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em
-}
-
-.text-blue-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity))
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity))
-}
-
-.text-gray-50 {
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity))
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity))
-}
-
-.text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity))
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity))
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity))
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity))
-}
-
-.text-stone-300 {
-  --tw-text-opacity: 1;
-  color: rgb(214 211 209 / var(--tw-text-opacity))
-}
-
-.text-stone-500 {
-  --tw-text-opacity: 1;
-  color: rgb(120 113 108 / var(--tw-text-opacity))
-}
-
-.text-stone-400 {
-  --tw-text-opacity: 1;
-  color: rgb(168 162 158 / var(--tw-text-opacity))
+.font-semibold {
+  font-weight: 600
 }
 
 .text-stone-200 {
