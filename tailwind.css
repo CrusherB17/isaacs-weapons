@@ -1,3 +1,7 @@
+.flex {
+  display: flex
+}
+
 .h-1\/2 {
   height: 50%
 }
@@ -26,21 +30,24 @@
   justify-content: flex-start
 }
 
+.justify-center {
+  justify-content: center
+}
+
 .justify-around {
   justify-content: space-around
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+.border-2 {
+  border-width: 2px
 }
 
-.bg-red-900 {
+.bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity))
 }
 
-.bg-stone-200 {
+.bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity))
 }
@@ -75,7 +82,12 @@
   font-weight: 600
 }
 
-.text-stone-200 {
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(127 29 29 / var(--tw-text-opacity))
+}
+
+.text-secondary {
   --tw-text-opacity: 1;
   color: rgb(231 229 228 / var(--tw-text-opacity))
 }
