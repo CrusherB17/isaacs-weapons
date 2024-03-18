@@ -30,10 +30,10 @@ export function Home() {
         </View> */}
   
         <Text style={tw('text-lg')}>Upcoming Weapons</Text>
-        <Weapon src={require('../assets/IMG_2038.HEIC.jpeg')}  name='The Dragon Slayer' type="Axe" />
+        <Weapon src={require('../assets/IMG_2038.HEIC.jpeg')}  name='The Dragon Slayer' type="Axe" acquired='07/02/22'/>
        
         <Text style={tw('text-lg')}>Featured Weapons</Text>
-        <Weapon src={require('../assets/IMG_2040.HEIC.jpeg')} name='Slasher' type='Sword' />
+        <Weapon src={require('../assets/IMG_2040.HEIC.jpeg')} name='Slasher' type='Sword' acquired='12/15/21'/>
         
         <Footer />
       </ScrollView>

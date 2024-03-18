@@ -1,13 +1,21 @@
+.m-2 {
+  margin: 0.5rem
+}
+
+.mt-4 {
+  margin-top: 1rem
+}
+
 .flex {
   display: flex
 }
 
-.h-1\/2 {
-  height: 50%
+.h-28 {
+  height: 7rem
 }
 
-.w-1\/2 {
-  width: 50%
+.w-28 {
+  width: 7rem
 }
 
 .w-full {
@@ -22,12 +30,8 @@
   flex-direction: row
 }
 
-.flex-wrap {
-  flex-wrap: wrap
-}
-
-.justify-start {
-  justify-content: flex-start
+.items-center {
+  align-items: center
 }
 
 .justify-center {
@@ -40,6 +44,10 @@
 
 .border-2 {
   border-width: 2px
+}
+
+.border-t-2 {
+  border-top-width: 2px
 }
 
 .bg-primary {

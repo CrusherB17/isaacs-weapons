@@ -5,7 +5,7 @@ import { useTailwind } from "tailwind-rn"
 export const Footer = () => {
   const tw = useTailwind()
   return (
-    <View style={tw(' text-center justify-center')}>
+    <View style={tw(' text-center justify-center border-t-2 mt-4')}>
       <Text style={tw('text-center text-xl')}>Contact Info</Text>
       <Text style={tw(' text-center')}>Phone: (937) 205-9740</Text>
       <Text style={tw(' text-center')}>isaacbrandyberry@gmail.com</Text>
