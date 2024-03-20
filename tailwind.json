@@ -1,12 +1,4 @@
 {
-	"m-2": {
-		"style": {
-			"marginTop": 8,
-			"marginRight": 8,
-			"marginBottom": 8,
-			"marginLeft": 8
-		}
-	},
 	"mt-4": {
 		"style": {
 			"marginTop": 16
@@ -44,9 +36,19 @@
 			"flexDirection": "row"
 		}
 	},
+	"items-end": {
+		"style": {
+			"alignItems": "flex-end"
+		}
+	},
 	"items-center": {
 		"style": {
 			"alignItems": "center"
+		}
+	},
+	"justify-end": {
+		"style": {
+			"justifyContent": "flex-end"
 		}
 	},
 	"justify-center": {
@@ -67,9 +69,32 @@
 			"borderLeftWidth": 2
 		}
 	},
+	"border": {
+		"style": {
+			"borderTopWidth": 1,
+			"borderRightWidth": 1,
+			"borderBottomWidth": 1,
+			"borderLeftWidth": 1
+		}
+	},
 	"border-t-2": {
 		"style": {
 			"borderTopWidth": 2
+		}
+	},
+	"border-b": {
+		"style": {
+			"borderBottomWidth": 1
+		}
+	},
+	"border-b-2": {
+		"style": {
+			"borderBottomWidth": 2
+		}
+	},
+	"border-solid": {
+		"style": {
+			"borderStyle": "solid"
 		}
 	},
 	"bg-primary": {
@@ -78,18 +103,10 @@
 			"backgroundColor": "rgb(127 29 29 / var(--tw-bg-opacity))"
 		}
 	},
-	"bg-secondary": {
+	"bg-tertiary": {
 		"style": {
 			"--tw-bg-opacity": 1,
 			"backgroundColor": "rgb(231 229 228 / var(--tw-bg-opacity))"
-		}
-	},
-	"p-2": {
-		"style": {
-			"paddingTop": 8,
-			"paddingRight": 8,
-			"paddingBottom": 8,
-			"paddingLeft": 8
 		}
 	},
 	"p-3": {
@@ -100,9 +117,35 @@
 			"paddingLeft": 12
 		}
 	},
+	"p-4": {
+		"style": {
+			"paddingTop": 16,
+			"paddingRight": 16,
+			"paddingBottom": 16,
+			"paddingLeft": 16
+		}
+	},
+	"p-2": {
+		"style": {
+			"paddingTop": 8,
+			"paddingRight": 8,
+			"paddingBottom": 8,
+			"paddingLeft": 8
+		}
+	},
+	"pl-8": {
+		"style": {
+			"paddingLeft": 32
+		}
+	},
 	"text-center": {
 		"style": {
 			"textAlign": "center"
+		}
+	},
+	"text-right": {
+		"style": {
+			"textAlign": "right"
 		}
 	},
 	"text-lg": {
@@ -122,11 +165,6 @@
 			"fontWeight": "700"
 		}
 	},
-	"font-semibold": {
-		"style": {
-			"fontWeight": "600"
-		}
-	},
 	"text-primary": {
 		"style": {
 			"--tw-text-opacity": 1,
@@ -136,7 +174,12 @@
 	"text-secondary": {
 		"style": {
 			"--tw-text-opacity": 1,
-			"color": "rgb(231 229 228 / var(--tw-text-opacity))"
+			"color": "rgb(95 116 112 / var(--tw-text-opacity))"
+		}
+	},
+	"underline": {
+		"style": {
+			"textDecorationLine": "underline"
 		}
 	}
 }

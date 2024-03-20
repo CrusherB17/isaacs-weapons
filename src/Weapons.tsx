@@ -5,7 +5,8 @@ import { Footer } from "./components/Footer";
 export const Weapons = () => {
   return (
     <ScrollView>
-        <Footer />
+      
+      <Footer />
     </ScrollView>
   );
 }
