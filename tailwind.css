@@ -1,5 +1,29 @@
+.m-2 {
+  margin: 0.5rem
+}
+
 .mt-4 {
   margin-top: 1rem
+}
+
+.mt-2 {
+  margin-top: 0.5rem
+}
+
+.mt-8 {
+  margin-top: 2rem
+}
+
+.mb-4 {
+  margin-bottom: 1rem
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem
+}
+
+.mt-7 {
+  margin-top: 1.75rem
 }
 
 .flex {
@@ -10,6 +34,30 @@
   height: 7rem
 }
 
+.h-1\/2 {
+  height: 50%
+}
+
+.h-full {
+  height: 100%
+}
+
+.h-96 {
+  height: 24rem
+}
+
+.h-48 {
+  height: 12rem
+}
+
+.h-32 {
+  height: 8rem
+}
+
+.h-40 {
+  height: 10rem
+}
+
 .w-28 {
   width: 7rem
 }
@@ -18,16 +66,36 @@
   width: 100%
 }
 
+.w-2 {
+  width: 0.5rem
+}
+
+.w-1\/2 {
+  width: 50%
+}
+
+.w-96 {
+  width: 24rem
+}
+
+.w-48 {
+  width: 12rem
+}
+
+.w-32 {
+  width: 8rem
+}
+
+.w-40 {
+  width: 10rem
+}
+
 .flex-1 {
   flex: 1 1 0%
 }
 
 .flex-row {
   flex-direction: row
-}
-
-.items-end {
-  align-items: flex-end
 }
 
 .items-center {
@@ -50,24 +118,17 @@
   border-width: 2px
 }
 
-.border {
-  border-width: 1px
+.border-b {
+  border-bottom-width: 1px
 }
 
 .border-t-2 {
   border-top-width: 2px
 }
 
-.border-b {
-  border-bottom-width: 1px
-}
-
-.border-b-2 {
-  border-bottom-width: 2px
-}
-
-.border-solid {
-  border-style: solid
+.border-secondary {
+  --tw-border-opacity: 1;
+  border-color: rgb(95 116 112 / var(--tw-border-opacity))
 }
 
 .bg-primary {
@@ -84,12 +145,12 @@
   padding: 0.75rem
 }
 
-.p-4 {
-  padding: 1rem
+.p-5 {
+  padding: 1.25rem
 }
 
-.p-2 {
-  padding: 0.5rem
+.p-4 {
+  padding: 1rem
 }
 
 .pl-8 {
@@ -98,10 +159,6 @@
 
 .text-center {
   text-align: center
-}
-
-.text-right {
-  text-align: right
 }
 
 .text-lg {
@@ -126,8 +183,4 @@
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(95 116 112 / var(--tw-text-opacity))
-}
-
-.underline {
-  text-decoration-line: underline
 }

@@ -16,14 +16,14 @@ export function Home() {
   return (
     <ScrollView style={tw("bg-tertiary")}>
       <View style={tw("border-b")}>
-        <Text style={tw("pl-8 text-lg")}>Upcoming Weapons</Text>
+        <Text style={tw("pl-8 text-lg text-primary")}>Upcoming Weapons</Text>
       </View>
       {weaponStatus.map((weapon) => (
         <WeaponCard key={weapon.name} {...weapon} />
       ))}
 
       <View style={tw('border-b')}>
-        <Text style={tw("pl-8 mt-4 text-lg")}>Featured Weapons</Text>
+        <Text style={tw("pl-8 mt-4 text-lg text-primary")}>Featured Weapons</Text>
       </View>
       {featuredWeapons.map((weapon) => (
         <WeaponCard key={weapon.name} {...weapon} />
