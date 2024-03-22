@@ -22,8 +22,10 @@ export function Home() {
         <WeaponCard key={weapon.name} {...weapon} />
       ))}
 
-      <View style={tw('border-b')}>
-        <Text style={tw("pl-8 mt-4 text-lg text-primary")}>Featured Weapons</Text>
+      <View style={tw("border-b")}>
+        <Text style={tw("pl-8 mt-4 text-lg text-primary")}>
+          Featured Weapons
+        </Text>
       </View>
       {featuredWeapons.map((weapon) => (
         <WeaponCard key={weapon.name} {...weapon} />

@@ -7,29 +7,14 @@
 			"marginLeft": 8
 		}
 	},
-	"mt-4": {
-		"style": {
-			"marginTop": 16
-		}
-	},
-	"mt-2": {
-		"style": {
-			"marginTop": 8
-		}
-	},
-	"mt-8": {
-		"style": {
-			"marginTop": 32
-		}
-	},
-	"mb-4": {
-		"style": {
-			"marginBottom": 16
-		}
-	},
 	"mb-3": {
 		"style": {
 			"marginBottom": 12
+		}
+	},
+	"mt-4": {
+		"style": {
+			"marginTop": 16
 		}
 	},
 	"mt-7": {
@@ -37,14 +22,19 @@
 			"marginTop": 28
 		}
 	},
+	"mb-2": {
+		"style": {
+			"marginBottom": 8
+		}
+	},
+	"mt-0": {
+		"style": {
+			"marginTop": 0
+		}
+	},
 	"flex": {
 		"style": {
 			"display": "flex"
-		}
-	},
-	"h-28": {
-		"style": {
-			"height": 112
 		}
 	},
 	"h-1/2": {
@@ -52,24 +42,9 @@
 			"height": "50%"
 		}
 	},
-	"h-full": {
+	"h-28": {
 		"style": {
-			"height": "100%"
-		}
-	},
-	"h-96": {
-		"style": {
-			"height": 384
-		}
-	},
-	"h-48": {
-		"style": {
-			"height": 192
-		}
-	},
-	"h-32": {
-		"style": {
-			"height": 128
+			"height": 112
 		}
 	},
 	"h-40": {
@@ -77,19 +52,9 @@
 			"height": 160
 		}
 	},
-	"w-28": {
+	"h-full": {
 		"style": {
-			"width": 112
-		}
-	},
-	"w-full": {
-		"style": {
-			"width": "100%"
-		}
-	},
-	"w-2": {
-		"style": {
-			"width": 8
+			"height": "100%"
 		}
 	},
 	"w-1/2": {
@@ -97,24 +62,19 @@
 			"width": "50%"
 		}
 	},
-	"w-96": {
+	"w-28": {
 		"style": {
-			"width": 384
-		}
-	},
-	"w-48": {
-		"style": {
-			"width": 192
-		}
-	},
-	"w-32": {
-		"style": {
-			"width": 128
+			"width": 112
 		}
 	},
 	"w-40": {
 		"style": {
 			"width": 160
+		}
+	},
+	"w-full": {
+		"style": {
+			"width": "100%"
 		}
 	},
 	"flex-1": {
@@ -196,20 +156,28 @@
 			"paddingLeft": 12
 		}
 	},
-	"p-5": {
-		"style": {
-			"paddingTop": 20,
-			"paddingRight": 20,
-			"paddingBottom": 20,
-			"paddingLeft": 20
-		}
-	},
 	"p-4": {
 		"style": {
 			"paddingTop": 16,
 			"paddingRight": 16,
 			"paddingBottom": 16,
 			"paddingLeft": 16
+		}
+	},
+	"p-2": {
+		"style": {
+			"paddingTop": 8,
+			"paddingRight": 8,
+			"paddingBottom": 8,
+			"paddingLeft": 8
+		}
+	},
+	"p-0": {
+		"style": {
+			"paddingTop": 0,
+			"paddingRight": 0,
+			"paddingBottom": 0,
+			"paddingLeft": 0
 		}
 	},
 	"pl-8": {
